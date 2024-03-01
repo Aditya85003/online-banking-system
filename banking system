@@ -319,7 +319,7 @@ public class OnlineBankingSystem {
 
     private static void viewTransactionHistory(User user) {
 
-        // existing code...
+       
         System.out.println("Transaction History:");
         for (Map.Entry<String, Account> entry : user.getAccounts().entrySet()) {
             Account account = entry.getValue();
